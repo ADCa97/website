@@ -1,0 +1,4 @@
+/log/
+/log/nginx/
+*.log
+/mysql/
