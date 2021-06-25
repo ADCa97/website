@@ -1,0 +1,48 @@
+version: "3"
+
+services:
+        nginx:
+                image: nginx:latest
+                container_name: mynginx
+                ports:
+                 - "80:80"
+                 - "443:443"
+                volumes:
+                 - ./www/:/usr/share/nginx/html/:rw
+                 - ./conf/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+                 - ./conf/nginx/conf.d/:/etc/nginx/conf.d/:ro
+                 - ./log/nginx/:/var/log/nginx/:rw
+                environment:
+                 TZ: "Asia/Shanghai"
+                restart: always
+                networks:
+                 - mynet
+        php:
+                build:
+                 context: ./conf/php
+                container_name: myphp
+                volumes:
+                 - ./www/:/var/www/html:rw
+                 - ./conf/php/php.ini:/usr/local/etc/php/php.ini:ro
+                 - ./conf/php/php-fpm.d/www.conf:/usr/local/etc/php-fpm.d/www.conf:rw
+                environment:
+                 TZ: "Asia/Shanghai"
+                restart: always
+                networks:
+                 - mynet
+        mysql:
+                image: mysql:latest
+                container_name: mysql
+                ports:
+                 - "3306:3306"
+                volumes:
+                 - ./mysql/:/var/lib/mysql:rw
+                restart: always
+                networks:
+                 - mynet
+                environment:
+                 MYSQL_ROOT_PASSWORD: "gzc@mysql995"
+                 TZ: "Asia/Shanghai"
+
+networks:
+        mynet:
