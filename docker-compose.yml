@@ -41,7 +41,7 @@ services:
                 networks:
                  - mynet
                 environment:
-                 MYSQL_ROOT_PASSWORD: "gzc@mysql995"
+                 MYSQL_ROOT_PASSWORD: "rootPassWd"
                  TZ: "Asia/Shanghai"
 
 networks:
