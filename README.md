@@ -19,6 +19,15 @@
 3. 启动容器
 
     docker-compose up -d
+    
+4. mysql相关设置
+    docker exec -it mysql /bin/bash
+    mysql -uroot -p'rootPassWd'
+    create user wordpress identified by 'yourPassWd';
+    create database wordpress;
+    grant all privileges on wordpress.* to wordpress;
+    flush privileges;
+    
 
 ---
 ## Reference
