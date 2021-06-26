@@ -578,3 +578,515 @@
 2021/06/25 17:18:52 [warn] 23#23: *1011 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/02/0000000026 while reading upstream, client: 192.168.1.1, server: www.adca.top, request: "GET /wp-admin/post.php?post=35&action=edit&message=4 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.adca.top", referrer: "http://www.adca.top/wp-admin/post.php?post=35&action=edit"
 2021/06/25 17:27:31 [warn] 22#22: *1055 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 192.168.1.1, server: www.adca.top, request: "POST /wp-admin/async-upload.php HTTP/1.1", host: "www.adca.top", referrer: "http://www.adca.top/wp-admin/media-new.php"
 2021/06/25 17:47:21 [warn] 23#23: *1201 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/02/0000000028 while reading upstream, client: 192.168.1.1, server: www.adca.top, request: "GET /wp-admin/post.php?post=44&action=edit&message=4 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.adca.top", referrer: "http://www.adca.top/wp-admin/post.php?post=44&action=edit"
+2021/06/26 09:59:50 [emerg] 34#34: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:08:19 [notice] 23#23: gracefully shutting down
+2021/06/26 11:08:19 [notice] 22#22: gracefully shutting down
+2021/06/26 11:08:19 [notice] 23#23: exiting
+2021/06/26 11:08:19 [notice] 23#23: exit
+2021/06/26 11:08:19 [notice] 22#22: exiting
+2021/06/26 11:08:19 [notice] 22#22: exit
+2021/06/26 11:08:19 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/06/26 11:08:19 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 11:08:19 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:08:19 [notice] 1#1: exit
+2021/06/26 11:08:21 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:22 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:23 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:24 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:26 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:28 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:32 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:39 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:08:52 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:09:18 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:10:10 [emerg] 1#1: cannot load certificate "/etc/nginx/conf.d/certs/localhost.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/conf.d/certs/localhost.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/06/26 11:11:11 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/adca.conf:14
+2021/06/26 11:12:11 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/adca.conf:14
+2021/06/26 11:13:12 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/adca.conf:14
+2021/06/26 11:14:13 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/adca.conf:14
+2021/06/26 11:15:13 [emerg] 1#1: "location" directive is not allowed here in /etc/nginx/conf.d/adca.conf:14
+2021/06/26 11:15:25 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:15:25 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:15:25 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:15:25 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:15:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:15:25 [notice] 1#1: start worker processes
+2021/06/26 11:15:25 [notice] 1#1: start worker process 22
+2021/06/26 11:15:25 [notice] 1#1: start worker process 23
+2021/06/26 11:18:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:18:57 [notice] 23#23: gracefully shutting down
+2021/06/26 11:18:57 [notice] 22#22: gracefully shutting down
+2021/06/26 11:18:57 [notice] 23#23: exiting
+2021/06/26 11:18:57 [notice] 22#22: exiting
+2021/06/26 11:18:57 [notice] 23#23: exit
+2021/06/26 11:18:57 [notice] 22#22: exit
+2021/06/26 11:18:57 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/06/26 11:18:57 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 11:18:57 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 11:18:57 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/06/26 11:18:57 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:18:57 [notice] 1#1: exit
+2021/06/26 11:18:58 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:18:58 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:18:58 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:18:58 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:18:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:18:58 [notice] 1#1: start worker processes
+2021/06/26 11:18:58 [notice] 1#1: start worker process 22
+2021/06/26 11:18:58 [notice] 1#1: start worker process 23
+2021/06/26 11:21:08 [error] 22#22: *6 open() "/usr/share/nginx/html/.well-known/acme-challenge/index.html" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/index.html HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:25:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:25:01 [notice] 22#22: gracefully shutting down
+2021/06/26 11:25:01 [notice] 23#23: gracefully shutting down
+2021/06/26 11:25:01 [notice] 23#23: exiting
+2021/06/26 11:25:01 [notice] 22#22: exiting
+2021/06/26 11:25:01 [notice] 23#23: exit
+2021/06/26 11:25:01 [notice] 22#22: exit
+2021/06/26 11:25:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/06/26 11:25:02 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 11:25:02 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:25:02 [notice] 1#1: exit
+2021/06/26 11:25:02 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:25:02 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:25:02 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:25:02 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:25:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:25:02 [notice] 1#1: start worker processes
+2021/06/26 11:25:02 [notice] 1#1: start worker process 22
+2021/06/26 11:25:02 [notice] 1#1: start worker process 23
+2021/06/26 11:25:20 [error] 22#22: *1 open() "/etc/nginx/html/.well-known/acme-challenge" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET //.well-known/acme-challenge HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:25:28 [error] 22#22: *1 open() "/etc/nginx/html/.well-known/acme-challenge" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:30:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:30:38 [notice] 23#23: gracefully shutting down
+2021/06/26 11:30:38 [notice] 23#23: exiting
+2021/06/26 11:30:38 [notice] 23#23: exit
+2021/06/26 11:30:38 [notice] 22#22: gracefully shutting down
+2021/06/26 11:30:38 [notice] 22#22: exiting
+2021/06/26 11:30:38 [notice] 22#22: exit
+2021/06/26 11:30:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/06/26 11:30:38 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 11:30:38 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:30:38 [notice] 1#1: exit
+2021/06/26 11:30:39 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:30:39 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:30:39 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:30:39 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:30:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:30:39 [notice] 1#1: start worker processes
+2021/06/26 11:30:39 [notice] 1#1: start worker process 22
+2021/06/26 11:30:39 [notice] 1#1: start worker process 23
+2021/06/26 11:32:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:32:10 [notice] 23#23: gracefully shutting down
+2021/06/26 11:32:10 [notice] 23#23: exiting
+2021/06/26 11:32:10 [notice] 23#23: exit
+2021/06/26 11:32:10 [notice] 22#22: gracefully shutting down
+2021/06/26 11:32:10 [notice] 22#22: exiting
+2021/06/26 11:32:10 [notice] 22#22: exit
+2021/06/26 11:32:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/06/26 11:32:10 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 11:32:10 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:32:10 [notice] 1#1: exit
+2021/06/26 11:32:11 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:32:11 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:32:11 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:32:11 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:32:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:32:11 [notice] 1#1: start worker processes
+2021/06/26 11:32:11 [notice] 1#1: start worker process 22
+2021/06/26 11:32:11 [notice] 1#1: start worker process 23
+2021/06/26 11:32:16 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:32:16 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:32:17 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:32:18 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:32:18 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:32:19 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:32:24 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:32:28 [error] 22#22: *2 "/usr/share/nginx/html/adca/.well-known/acme-challenge/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /.well-known/acme-challenge/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:33:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:33:45 [notice] 22#22: gracefully shutting down
+2021/06/26 11:33:45 [notice] 22#22: exiting
+2021/06/26 11:33:45 [notice] 22#22: exit
+2021/06/26 11:33:45 [notice] 23#23: gracefully shutting down
+2021/06/26 11:33:45 [notice] 23#23: exiting
+2021/06/26 11:33:45 [notice] 23#23: exit
+2021/06/26 11:33:45 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/06/26 11:33:45 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 11:33:45 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:33:45 [notice] 1#1: exit
+2021/06/26 11:33:46 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:33:46 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:33:46 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:33:46 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:33:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:33:46 [notice] 1#1: start worker processes
+2021/06/26 11:33:46 [notice] 1#1: start worker process 22
+2021/06/26 11:33:46 [notice] 1#1: start worker process 23
+2021/06/26 11:34:01 [error] 22#22: *2 open() "/etc/nginx/html/adca" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:35:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:35:14 [notice] 23#23: gracefully shutting down
+2021/06/26 11:35:14 [notice] 23#23: exiting
+2021/06/26 11:35:14 [notice] 23#23: exit
+2021/06/26 11:35:14 [notice] 22#22: gracefully shutting down
+2021/06/26 11:35:14 [notice] 22#22: exiting
+2021/06/26 11:35:14 [notice] 22#22: exit
+2021/06/26 11:35:14 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/06/26 11:35:14 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 11:35:14 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:35:14 [notice] 1#1: exit
+2021/06/26 11:35:15 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:35:15 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:35:15 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:35:15 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:35:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:35:15 [notice] 1#1: start worker processes
+2021/06/26 11:35:15 [notice] 1#1: start worker process 23
+2021/06/26 11:35:15 [notice] 1#1: start worker process 24
+2021/06/26 11:35:19 [error] 24#24: *2 open() "/usr/share/nginx/html/adca/adca" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:35:20 [error] 24#24: *2 open() "/usr/share/nginx/html/adca/adca" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:35:21 [error] 24#24: *2 open() "/usr/share/nginx/html/adca/adca" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:35:25 [error] 24#24: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.1.1, server: www.adca.top, request: "GET /adca/test.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.adca.top"
+2021/06/26 11:35:40 [error] 24#24: *2 open() "/usr/share/nginx/html/adca/adca" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca HTTP/1.1", host: "www.adca.top"
+2021/06/26 11:35:59 [error] 24#24: *14 open() "/usr/share/nginx/html/adca/adca" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca HTTP/1.1", host: "192.168.1.9"
+2021/06/26 11:38:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/26 11:38:07 [notice] 23#23: gracefully shutting down
+2021/06/26 11:38:07 [notice] 23#23: exiting
+2021/06/26 11:38:07 [notice] 23#23: exit
+2021/06/26 11:38:07 [notice] 24#24: gracefully shutting down
+2021/06/26 11:38:07 [notice] 24#24: exiting
+2021/06/26 11:38:07 [notice] 24#24: exit
+2021/06/26 11:38:07 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/06/26 11:38:07 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 11:38:07 [notice] 1#1: worker process 24 exited with code 0
+2021/06/26 11:38:07 [notice] 1#1: exit
+2021/06/26 11:38:08 [notice] 1#1: using the "epoll" event method
+2021/06/26 11:38:08 [notice] 1#1: nginx/1.21.0
+2021/06/26 11:38:08 [notice] 1#1: built by gcc 8.3.0 (Debian 8.3.0-6) 
+2021/06/26 11:38:08 [notice] 1#1: OS: Linux 5.4.0-77-generic
+2021/06/26 11:38:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/26 11:38:08 [notice] 1#1: start worker processes
+2021/06/26 11:38:08 [notice] 1#1: start worker process 22
+2021/06/26 11:38:08 [notice] 1#1: start worker process 23
+2021/06/26 14:11:05 [notice] 33#33: signal process started
+2021/06/26 14:11:05 [notice] 1#1: signal 1 (SIGHUP) received from 33, reconfiguring
+2021/06/26 14:11:05 [notice] 1#1: reconfiguring
+2021/06/26 14:11:05 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:11:05 [notice] 1#1: start worker processes
+2021/06/26 14:11:05 [notice] 1#1: start worker process 34
+2021/06/26 14:11:05 [notice] 1#1: start worker process 35
+2021/06/26 14:11:05 [notice] 22#22: gracefully shutting down
+2021/06/26 14:11:05 [notice] 23#23: gracefully shutting down
+2021/06/26 14:11:05 [notice] 23#23: exiting
+2021/06/26 14:11:05 [notice] 22#22: exiting
+2021/06/26 14:11:05 [notice] 23#23: exit
+2021/06/26 14:11:05 [notice] 22#22: exit
+2021/06/26 14:11:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2021/06/26 14:11:05 [notice] 1#1: worker process 23 exited with code 0
+2021/06/26 14:11:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:11:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2021/06/26 14:11:05 [notice] 1#1: worker process 22 exited with code 0
+2021/06/26 14:11:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:11:46 [emerg] 39#39: invalid location modifier "location" in /etc/nginx/conf.d/adca.conf:10
+2021/06/26 14:12:00 [emerg] 40#40: invalid location modifier "location" in /etc/nginx/conf.d/adca.conf:10
+2021/06/26 14:15:13 [notice] 42#42: signal process started
+2021/06/26 14:15:13 [notice] 1#1: signal 1 (SIGHUP) received from 42, reconfiguring
+2021/06/26 14:15:13 [notice] 1#1: reconfiguring
+2021/06/26 14:15:13 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:15:13 [notice] 1#1: start worker processes
+2021/06/26 14:15:13 [notice] 1#1: start worker process 43
+2021/06/26 14:15:13 [notice] 1#1: start worker process 44
+2021/06/26 14:15:14 [notice] 35#35: gracefully shutting down
+2021/06/26 14:15:14 [notice] 35#35: exiting
+2021/06/26 14:15:14 [notice] 35#35: exit
+2021/06/26 14:15:14 [notice] 34#34: gracefully shutting down
+2021/06/26 14:15:14 [notice] 34#34: exiting
+2021/06/26 14:15:14 [notice] 34#34: exit
+2021/06/26 14:15:14 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/26 14:15:14 [notice] 1#1: worker process 34 exited with code 0
+2021/06/26 14:15:14 [notice] 1#1: worker process 35 exited with code 0
+2021/06/26 14:15:14 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:20:04 [notice] 46#46: signal process started
+2021/06/26 14:20:04 [notice] 1#1: signal 1 (SIGHUP) received from 46, reconfiguring
+2021/06/26 14:20:04 [notice] 1#1: reconfiguring
+2021/06/26 14:20:04 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:20:04 [notice] 1#1: start worker processes
+2021/06/26 14:20:04 [notice] 1#1: start worker process 47
+2021/06/26 14:20:04 [notice] 1#1: start worker process 48
+2021/06/26 14:20:05 [notice] 44#44: gracefully shutting down
+2021/06/26 14:20:05 [notice] 44#44: exiting
+2021/06/26 14:20:05 [notice] 44#44: exit
+2021/06/26 14:20:05 [notice] 43#43: gracefully shutting down
+2021/06/26 14:20:05 [notice] 1#1: signal 17 (SIGCHLD) received from 44
+2021/06/26 14:20:05 [notice] 1#1: worker process 44 exited with code 0
+2021/06/26 14:20:05 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:20:09 [notice] 43#43: exiting
+2021/06/26 14:20:09 [alert] 43#43: *58 open socket #5 left in connection 4
+2021/06/26 14:20:09 [alert] 43#43: *63 open socket #6 left in connection 6
+2021/06/26 14:20:09 [alert] 43#43: aborting
+2021/06/26 14:20:09 [notice] 43#43: exit
+2021/06/26 14:20:09 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2021/06/26 14:20:09 [notice] 1#1: worker process 43 exited with code 0
+2021/06/26 14:20:09 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:24:58 [notice] 49#49: signal process started
+2021/06/26 14:24:58 [notice] 1#1: signal 1 (SIGHUP) received from 49, reconfiguring
+2021/06/26 14:24:58 [notice] 1#1: reconfiguring
+2021/06/26 14:24:58 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:24:58 [notice] 1#1: start worker processes
+2021/06/26 14:24:58 [notice] 1#1: start worker process 50
+2021/06/26 14:24:58 [notice] 1#1: start worker process 51
+2021/06/26 14:24:58 [notice] 48#48: gracefully shutting down
+2021/06/26 14:24:58 [notice] 47#47: gracefully shutting down
+2021/06/26 14:24:58 [notice] 47#47: exiting
+2021/06/26 14:24:58 [notice] 47#47: exit
+2021/06/26 14:24:58 [notice] 48#48: exiting
+2021/06/26 14:24:58 [notice] 48#48: exit
+2021/06/26 14:24:58 [notice] 1#1: signal 17 (SIGCHLD) received from 48
+2021/06/26 14:24:58 [notice] 1#1: worker process 47 exited with code 0
+2021/06/26 14:24:58 [notice] 1#1: worker process 48 exited with code 0
+2021/06/26 14:24:58 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:27:29 [notice] 53#53: signal process started
+2021/06/26 14:27:29 [notice] 1#1: signal 1 (SIGHUP) received from 53, reconfiguring
+2021/06/26 14:27:29 [notice] 1#1: reconfiguring
+2021/06/26 14:27:29 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:27:29 [notice] 1#1: start worker processes
+2021/06/26 14:27:29 [notice] 1#1: start worker process 54
+2021/06/26 14:27:29 [notice] 1#1: start worker process 55
+2021/06/26 14:27:29 [notice] 50#50: gracefully shutting down
+2021/06/26 14:27:29 [notice] 50#50: exiting
+2021/06/26 14:27:29 [notice] 50#50: exit
+2021/06/26 14:27:29 [notice] 51#51: gracefully shutting down
+2021/06/26 14:27:29 [notice] 51#51: exiting
+2021/06/26 14:27:29 [notice] 51#51: exit
+2021/06/26 14:27:29 [notice] 1#1: signal 17 (SIGCHLD) received from 50
+2021/06/26 14:27:29 [notice] 1#1: worker process 50 exited with code 0
+2021/06/26 14:27:29 [notice] 1#1: worker process 51 exited with code 0
+2021/06/26 14:27:29 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:32:20 [notice] 56#56: signal process started
+2021/06/26 14:32:20 [notice] 1#1: signal 1 (SIGHUP) received from 56, reconfiguring
+2021/06/26 14:32:20 [notice] 1#1: reconfiguring
+2021/06/26 14:32:20 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:32:20 [notice] 1#1: start worker processes
+2021/06/26 14:32:20 [notice] 1#1: start worker process 57
+2021/06/26 14:32:20 [notice] 1#1: start worker process 58
+2021/06/26 14:32:20 [notice] 54#54: gracefully shutting down
+2021/06/26 14:32:20 [notice] 54#54: exiting
+2021/06/26 14:32:20 [notice] 54#54: exit
+2021/06/26 14:32:20 [notice] 55#55: gracefully shutting down
+2021/06/26 14:32:20 [notice] 55#55: exiting
+2021/06/26 14:32:20 [notice] 55#55: exit
+2021/06/26 14:32:20 [notice] 1#1: signal 17 (SIGCHLD) received from 54
+2021/06/26 14:32:20 [notice] 1#1: worker process 54 exited with code 0
+2021/06/26 14:32:20 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:32:20 [notice] 1#1: signal 17 (SIGCHLD) received from 55
+2021/06/26 14:32:20 [notice] 1#1: worker process 55 exited with code 0
+2021/06/26 14:32:20 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:32:24 [notice] 60#60: signal process started
+2021/06/26 14:32:24 [notice] 1#1: signal 1 (SIGHUP) received from 60, reconfiguring
+2021/06/26 14:32:24 [notice] 1#1: reconfiguring
+2021/06/26 14:32:24 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:32:24 [notice] 1#1: start worker processes
+2021/06/26 14:32:24 [notice] 1#1: start worker process 61
+2021/06/26 14:32:24 [notice] 1#1: start worker process 62
+2021/06/26 14:32:24 [notice] 58#58: gracefully shutting down
+2021/06/26 14:32:24 [notice] 58#58: exiting
+2021/06/26 14:32:24 [notice] 58#58: exit
+2021/06/26 14:32:24 [notice] 57#57: gracefully shutting down
+2021/06/26 14:32:24 [notice] 57#57: exiting
+2021/06/26 14:32:24 [notice] 57#57: exit
+2021/06/26 14:32:24 [notice] 1#1: signal 17 (SIGCHLD) received from 57
+2021/06/26 14:32:24 [notice] 1#1: worker process 57 exited with code 0
+2021/06/26 14:32:24 [notice] 1#1: worker process 58 exited with code 0
+2021/06/26 14:32:24 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:39:36 [notice] 66#66: signal process started
+2021/06/26 14:39:36 [notice] 1#1: signal 1 (SIGHUP) received from 66, reconfiguring
+2021/06/26 14:39:36 [notice] 1#1: reconfiguring
+2021/06/26 14:39:36 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:39:36 [notice] 1#1: start worker processes
+2021/06/26 14:39:36 [notice] 1#1: start worker process 67
+2021/06/26 14:39:36 [notice] 1#1: start worker process 68
+2021/06/26 14:39:36 [notice] 62#62: gracefully shutting down
+2021/06/26 14:39:36 [notice] 61#61: gracefully shutting down
+2021/06/26 14:39:36 [notice] 62#62: exiting
+2021/06/26 14:39:36 [notice] 61#61: exiting
+2021/06/26 14:39:36 [notice] 62#62: exit
+2021/06/26 14:39:36 [notice] 61#61: exit
+2021/06/26 14:39:36 [notice] 1#1: signal 17 (SIGCHLD) received from 62
+2021/06/26 14:39:36 [notice] 1#1: worker process 62 exited with code 0
+2021/06/26 14:39:36 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:39:36 [notice] 1#1: signal 17 (SIGCHLD) received from 61
+2021/06/26 14:39:36 [notice] 1#1: worker process 61 exited with code 0
+2021/06/26 14:39:36 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:39:46 [error] 67#67: *120 "/usr/share/nginx/html/adca/adca/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:39:46 [error] 67#67: *120 "/usr/share/nginx/html/adca/adca/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:40:25 [error] 67#67: *120 "/usr/share/nginx/html/adca/adca/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:40:25 [error] 67#67: *120 "/usr/share/nginx/html/adca/adca/index.html" is not found (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/ HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:41:49 [error] 67#67: *126 open() "/usr/share/nginx/html/adca/adca/index.html" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/index.html HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:41:49 [error] 67#67: *126 open() "/usr/share/nginx/html/adca/adca/index.html" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/index.html HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:44:57 [error] 68#68: *131 open() "/usr/share/nginx/html/adca/adca/test.php" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/test.php HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:44:57 [error] 68#68: *131 open() "/usr/share/nginx/html/adca/adca/test.php" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/test.php HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:45:33 [notice] 81#81: signal process started
+2021/06/26 14:45:33 [notice] 1#1: signal 1 (SIGHUP) received from 81, reconfiguring
+2021/06/26 14:45:33 [notice] 1#1: reconfiguring
+2021/06/26 14:45:33 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:45:33 [notice] 1#1: start worker processes
+2021/06/26 14:45:33 [notice] 1#1: start worker process 82
+2021/06/26 14:45:33 [notice] 1#1: start worker process 83
+2021/06/26 14:45:33 [notice] 68#68: gracefully shutting down
+2021/06/26 14:45:33 [notice] 67#67: gracefully shutting down
+2021/06/26 14:45:33 [notice] 67#67: exiting
+2021/06/26 14:45:33 [notice] 67#67: exit
+2021/06/26 14:45:33 [notice] 1#1: signal 17 (SIGCHLD) received from 67
+2021/06/26 14:45:33 [notice] 1#1: worker process 67 exited with code 0
+2021/06/26 14:45:33 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:45:37 [error] 68#68: *130 open() "/usr/share/nginx/html/adca/adca/test.php" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/test.php HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:45:37 [notice] 68#68: exiting
+2021/06/26 14:45:37 [notice] 68#68: exit
+2021/06/26 14:45:37 [error] 83#83: *134 open() "/usr/share/nginx/html/adca/adca/test.php" failed (2: No such file or directory), client: 192.168.1.1, server: www.adca.top, request: "GET /adca/test.php HTTP/1.1", host: "www.adca.top"
+2021/06/26 14:45:37 [notice] 1#1: signal 17 (SIGCHLD) received from 68
+2021/06/26 14:45:37 [notice] 1#1: worker process 68 exited with code 0
+2021/06/26 14:45:37 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:48:07 [notice] 84#84: signal process started
+2021/06/26 14:48:07 [notice] 1#1: signal 1 (SIGHUP) received from 84, reconfiguring
+2021/06/26 14:48:07 [notice] 1#1: reconfiguring
+2021/06/26 14:48:07 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:48:07 [notice] 1#1: start worker processes
+2021/06/26 14:48:07 [notice] 1#1: start worker process 85
+2021/06/26 14:48:07 [notice] 1#1: start worker process 86
+2021/06/26 14:48:07 [notice] 82#82: gracefully shutting down
+2021/06/26 14:48:07 [notice] 82#82: exiting
+2021/06/26 14:48:07 [notice] 82#82: exit
+2021/06/26 14:48:07 [notice] 83#83: gracefully shutting down
+2021/06/26 14:48:07 [notice] 83#83: exiting
+2021/06/26 14:48:07 [notice] 83#83: exit
+2021/06/26 14:48:07 [notice] 1#1: signal 17 (SIGCHLD) received from 82
+2021/06/26 14:48:07 [notice] 1#1: worker process 82 exited with code 0
+2021/06/26 14:48:07 [notice] 1#1: worker process 83 exited with code 0
+2021/06/26 14:48:07 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:48:48 [notice] 87#87: signal process started
+2021/06/26 14:48:48 [notice] 1#1: signal 1 (SIGHUP) received from 87, reconfiguring
+2021/06/26 14:48:48 [notice] 1#1: reconfiguring
+2021/06/26 14:48:48 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:48:48 [notice] 1#1: start worker processes
+2021/06/26 14:48:48 [notice] 1#1: start worker process 88
+2021/06/26 14:48:48 [notice] 1#1: start worker process 89
+2021/06/26 14:48:48 [notice] 86#86: gracefully shutting down
+2021/06/26 14:48:48 [notice] 85#85: gracefully shutting down
+2021/06/26 14:48:48 [notice] 85#85: exiting
+2021/06/26 14:48:48 [notice] 85#85: exit
+2021/06/26 14:48:48 [notice] 1#1: signal 17 (SIGCHLD) received from 85
+2021/06/26 14:48:48 [notice] 1#1: worker process 85 exited with code 0
+2021/06/26 14:48:48 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:48:56 [notice] 86#86: exiting
+2021/06/26 14:48:56 [notice] 86#86: exit
+2021/06/26 14:48:56 [notice] 1#1: signal 17 (SIGCHLD) received from 86
+2021/06/26 14:48:56 [notice] 1#1: worker process 86 exited with code 0
+2021/06/26 14:48:56 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:52:57 [notice] 90#90: signal process started
+2021/06/26 14:52:57 [notice] 1#1: signal 1 (SIGHUP) received from 90, reconfiguring
+2021/06/26 14:52:57 [notice] 1#1: reconfiguring
+2021/06/26 14:52:57 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:52:57 [notice] 1#1: start worker processes
+2021/06/26 14:52:57 [notice] 1#1: start worker process 91
+2021/06/26 14:52:57 [notice] 1#1: start worker process 92
+2021/06/26 14:52:57 [notice] 89#89: gracefully shutting down
+2021/06/26 14:52:57 [notice] 88#88: gracefully shutting down
+2021/06/26 14:52:57 [notice] 89#89: exiting
+2021/06/26 14:52:57 [notice] 88#88: exiting
+2021/06/26 14:52:57 [notice] 89#89: exit
+2021/06/26 14:52:57 [notice] 88#88: exit
+2021/06/26 14:52:57 [notice] 1#1: signal 17 (SIGCHLD) received from 89
+2021/06/26 14:52:57 [notice] 1#1: worker process 88 exited with code 0
+2021/06/26 14:52:57 [notice] 1#1: worker process 89 exited with code 0
+2021/06/26 14:52:57 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:52:57 [notice] 1#1: signal 17 (SIGCHLD) received from 88
+2021/06/26 14:53:42 [notice] 93#93: signal process started
+2021/06/26 14:53:42 [notice] 1#1: signal 1 (SIGHUP) received from 93, reconfiguring
+2021/06/26 14:53:42 [notice] 1#1: reconfiguring
+2021/06/26 14:53:42 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:53:42 [notice] 1#1: start worker processes
+2021/06/26 14:53:42 [notice] 1#1: start worker process 94
+2021/06/26 14:53:42 [notice] 1#1: start worker process 95
+2021/06/26 14:53:42 [notice] 92#92: gracefully shutting down
+2021/06/26 14:53:42 [notice] 91#91: gracefully shutting down
+2021/06/26 14:53:42 [notice] 92#92: exiting
+2021/06/26 14:53:42 [notice] 92#92: exit
+2021/06/26 14:53:42 [notice] 1#1: signal 17 (SIGCHLD) received from 92
+2021/06/26 14:53:42 [notice] 1#1: worker process 92 exited with code 0
+2021/06/26 14:53:42 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:53:50 [notice] 91#91: exiting
+2021/06/26 14:53:50 [notice] 91#91: exit
+2021/06/26 14:53:50 [notice] 1#1: signal 17 (SIGCHLD) received from 91
+2021/06/26 14:53:50 [notice] 1#1: worker process 91 exited with code 0
+2021/06/26 14:53:50 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:56:58 [notice] 97#97: signal process started
+2021/06/26 14:56:58 [notice] 1#1: signal 1 (SIGHUP) received from 97, reconfiguring
+2021/06/26 14:56:58 [notice] 1#1: reconfiguring
+2021/06/26 14:56:58 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:56:58 [notice] 1#1: start worker processes
+2021/06/26 14:56:58 [notice] 1#1: start worker process 98
+2021/06/26 14:56:58 [notice] 1#1: start worker process 99
+2021/06/26 14:56:58 [notice] 95#95: gracefully shutting down
+2021/06/26 14:56:58 [notice] 94#94: gracefully shutting down
+2021/06/26 14:56:58 [notice] 94#94: exiting
+2021/06/26 14:56:58 [notice] 94#94: exit
+2021/06/26 14:56:58 [notice] 95#95: exiting
+2021/06/26 14:56:58 [notice] 95#95: exit
+2021/06/26 14:56:58 [notice] 1#1: signal 17 (SIGCHLD) received from 95
+2021/06/26 14:56:58 [notice] 1#1: worker process 94 exited with code 0
+2021/06/26 14:56:58 [notice] 1#1: worker process 95 exited with code 0
+2021/06/26 14:56:58 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:57:23 [notice] 100#100: signal process started
+2021/06/26 14:57:23 [notice] 1#1: signal 1 (SIGHUP) received from 100, reconfiguring
+2021/06/26 14:57:23 [notice] 1#1: reconfiguring
+2021/06/26 14:57:23 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:57:23 [notice] 1#1: start worker processes
+2021/06/26 14:57:23 [notice] 1#1: start worker process 101
+2021/06/26 14:57:23 [notice] 1#1: start worker process 102
+2021/06/26 14:57:23 [notice] 99#99: gracefully shutting down
+2021/06/26 14:57:23 [notice] 98#98: gracefully shutting down
+2021/06/26 14:57:23 [notice] 98#98: exiting
+2021/06/26 14:57:23 [notice] 98#98: exit
+2021/06/26 14:57:23 [notice] 1#1: signal 17 (SIGCHLD) received from 98
+2021/06/26 14:57:23 [notice] 1#1: worker process 98 exited with code 0
+2021/06/26 14:57:23 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:57:26 [notice] 99#99: exiting
+2021/06/26 14:57:26 [notice] 99#99: exit
+2021/06/26 14:57:26 [notice] 1#1: signal 17 (SIGCHLD) received from 99
+2021/06/26 14:57:26 [notice] 1#1: worker process 99 exited with code 0
+2021/06/26 14:57:26 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:58:41 [notice] 103#103: signal process started
+2021/06/26 14:58:41 [notice] 1#1: signal 1 (SIGHUP) received from 103, reconfiguring
+2021/06/26 14:58:41 [notice] 1#1: reconfiguring
+2021/06/26 14:58:41 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:58:41 [notice] 1#1: start worker processes
+2021/06/26 14:58:41 [notice] 1#1: start worker process 104
+2021/06/26 14:58:41 [notice] 1#1: start worker process 105
+2021/06/26 14:58:41 [notice] 102#102: gracefully shutting down
+2021/06/26 14:58:41 [notice] 101#101: gracefully shutting down
+2021/06/26 14:58:41 [notice] 102#102: exiting
+2021/06/26 14:58:41 [notice] 102#102: exit
+2021/06/26 14:58:41 [notice] 101#101: exiting
+2021/06/26 14:58:41 [notice] 101#101: exit
+2021/06/26 14:58:41 [notice] 1#1: signal 17 (SIGCHLD) received from 102
+2021/06/26 14:58:41 [notice] 1#1: worker process 101 exited with code 0
+2021/06/26 14:58:41 [notice] 1#1: worker process 102 exited with code 0
+2021/06/26 14:58:41 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:59:10 [notice] 106#106: signal process started
+2021/06/26 14:59:10 [notice] 1#1: signal 1 (SIGHUP) received from 106, reconfiguring
+2021/06/26 14:59:10 [notice] 1#1: reconfiguring
+2021/06/26 14:59:10 [notice] 1#1: using the "epoll" event method
+2021/06/26 14:59:10 [notice] 1#1: start worker processes
+2021/06/26 14:59:10 [notice] 1#1: start worker process 107
+2021/06/26 14:59:10 [notice] 1#1: start worker process 108
+2021/06/26 14:59:11 [notice] 104#104: gracefully shutting down
+2021/06/26 14:59:11 [notice] 105#105: gracefully shutting down
+2021/06/26 14:59:11 [notice] 104#104: exiting
+2021/06/26 14:59:11 [notice] 104#104: exit
+2021/06/26 14:59:11 [notice] 1#1: signal 17 (SIGCHLD) received from 104
+2021/06/26 14:59:11 [notice] 1#1: worker process 104 exited with code 0
+2021/06/26 14:59:11 [notice] 1#1: signal 29 (SIGIO) received
+2021/06/26 14:59:13 [notice] 105#105: exiting
+2021/06/26 14:59:13 [notice] 105#105: exit
+2021/06/26 14:59:13 [notice] 1#1: signal 17 (SIGCHLD) received from 105
+2021/06/26 14:59:13 [notice] 1#1: worker process 105 exited with code 0
+2021/06/26 14:59:13 [notice] 1#1: signal 29 (SIGIO) received
