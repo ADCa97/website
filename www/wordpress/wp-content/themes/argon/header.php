@@ -408,7 +408,7 @@
 	?>
 	<div id="banner_container" class="banner-container container text-center">
 		<?php if ($enable_banner_title_typing_effect != "true"){?>
-			<div class="banner-title text-white"><span class="banner-title-inner"><?php echo $banner_title; ?></span>
+			<div class="banner-title text-white"><span class="banner-title-inner"><?php echo ""; ?></span>
 		<?php } else {?>
 			<div class="banner-title text-white" data-text="<?php echo $banner_title; ?>" data-interval="<?php echo (get_option('argon_banner_typing_effect_interval') == '' ? '100' : get_option('argon_banner_typing_effect_interval')); ?>"><span class="banner-title-inner">&nbsp;</span>
 		<?php }?>
