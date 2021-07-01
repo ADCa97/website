@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("mysql", "wordpress", "995774");
+$con = mysqli_connect("mysql", "wordpress", "yourPassWd");
 
 if (!$con) {
 	die("Could not connect: " . mysql_error());
