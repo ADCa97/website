@@ -39,6 +39,9 @@
     flush privileges;
     
 5. WordPress相关设置
+
+    通过浏览器访问localhost:80，按照提示逐步设置即可。
+  
     
 
 ---
