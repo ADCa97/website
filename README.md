@@ -12,9 +12,13 @@
 
 2. 安装docker-compose
 
-    curl -L https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
+    Docker-compose介绍详见[Docker-compose](https://github.com/docker/compose/)
+    
+    运行如下命令以安装docker-compose
 
-    chmod +x /usr/local/bin/docker-compose
+    sudo curl -L https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
+
+    sudo chmod +x /usr/local/bin/docker-compose
 
 3. 启动容器
 
@@ -33,6 +37,8 @@
     grant all privileges on wordpress.* to wordpress;
     
     flush privileges;
+    
+5. WordPress相关设置
     
 
 ---
